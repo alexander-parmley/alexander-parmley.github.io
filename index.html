@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="image" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.iYGzuh0TSy3C6ABzXkNIdQAAAA%26pid%3DApi&f=1&ipt=66e732f12baac8a821d1ed39f91894f98c62cd9c03d027447595f834ad779bdb&ipo=images">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Treasure Hunt</h1>
+        <img src="https://i.gifer.com/A6G.gif" alt="a treasure chest" height="380px">
+    </div>
+ 
+    <div class="rules">
+        <ul>
+            <li>Click a square</li>
+            <li>Try to find the treasure, to win</li>
+            <li>Avoid the hidden bomb or you lose</li>
+        </ul>
+    </div>
+  
+
+    <div class="table">
+        <table>
+            <tr>
+                <td id="0" onclick="treasureFinder(0)">?</td>
+                <td id="1" onclick="treasureFinder(1)">?</td>
+                <td id="2" onclick="treasureFinder(2)">?</td>
+            </tr>
+            <tr>
+                <td id="3" onclick="treasureFinder(3)">? </td>
+                <td id="4" onclick="treasureFinder(4)">?</td>
+                <td id="5" onclick="treasureFinder(5)">?</td>
+            </tr>
+            <tr>
+                <td id="6" onclick="treasureFinder(6)">?</td>
+                <td id="7" onclick="treasureFinder(7)">?</td>
+                <td id="8" onclick="treasureFinder(8)">?</td>
+            </tr>
+        </table> 
+    </div>
+
+    <div>
+        <p id="digs">Digs remaining:</p>
+    </div>
+    
+    <div class="counter">
+        
+        <p id="click-counter"></p>
+    </div>
+
+    <div class="button">
+        <button onClick="window.location.reload();">Restart Game</button>
+        <script type="text/javascript" src="treasurehunt.js"></script>
+    </div>
+    
+</body>
+<footer>
+    <p>&copy Ryan and Alexander</p>
+    <a href="https://en.wikipedia.org/wiki/Piracy">Learn More about Piracy</a>
+</footer>
+</html>

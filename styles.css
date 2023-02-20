@@ -1,0 +1,94 @@
+*{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font: small-caps;
+    color: rgb(2, 10, 24)
+}
+
+table{
+margin-left: auto;
+margin-right: auto;
+font-size: 120px;
+width: 600px;
+height: 600px;
+background: radial-gradient(circle, rgb(185, 251, 163) 0%, rgb(226, 236, 148) 100%);
+border-radius: 20px;
+table-layout: fixed;
+}
+
+ul{
+    display: inline; text-align: left; 
+}
+
+li{
+    font-size: 25px;
+}
+
+td{
+font-weight: bolder;
+}
+
+button{
+    font-size: 50px;
+    background-color: brown;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+}
+
+h1{
+    font-size: 100px;
+}
+
+#click-counter{
+    font-size: 35px;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 250px;
+    background-color: olive;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 20px;
+}
+
+body{
+ 
+    background-image:  linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgb(255, 237, 133));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+        background-blend-mode:multiply;
+}
+
+.table{
+margin-top: 1.5em;
+}
+
+.rules{
+    display: flex;
+    justify-content: center;
+border-top: solid black;
+border-bottom: solid black;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: black solid;
+}
+
+#digs{
+    font-size: 25px;
+    margin-bottom: -25px;
+}
